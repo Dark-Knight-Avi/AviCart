@@ -18,7 +18,7 @@ const Product = () => {
     }
 
     return (
-        <Layout title={"Product"}>
+        <Layout title={product.name}>
             <section className="text-gray-400 bg-gray-900 body-font overflow-hidden">
                 <div className="container px-5 py-24 mx-auto">
                     <div className="lg:w-4/5 mx-auto flex flex-wrap">
